@@ -9,7 +9,7 @@ Giao diện HTML/CSS cho website xem phim trực tuyến HaviFilm,
 - CSS3
 
 ## Cách xem
-Mở file `TrangDangNhap.html` bằng trình duyệt Chrome hoặc Firefox.
+Mở file `index.html` bằng trình duyệt Chrome hoặc Firefox.
 
 ## Thành viên thực hiện
 - Nguyễn Đình Huy – 2210A01
