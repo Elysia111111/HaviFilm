@@ -1,0 +1,662 @@
+.trang-tm-kim-main {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  align-items: center;
+  gap: 200px;
+  position: relative;
+  background-color: #050814;
+}
+
+.trang-tm-kim-main .header {
+  display: flex;
+  width: 1440px;
+  align-items: flex-start;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  flex: 0 0 auto;
+  background-color: var(--neutralffffff);
+}
+
+.trang-tm-kim-main .header-wrapper {
+  background-color: var(--neutral-050814);
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  opacity: 0.9;
+}
+
+.trang-tm-kim-main .frame-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  padding: 14px 102px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  opacity: 0.9;
+}
+
+.trang-tm-kim-main .frame {
+  display: flex;
+  width: 1237px;
+  align-items: center;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -1px;
+}
+
+.trang-tm-kim-main .container {
+  display: inline-flex;
+  height: 44px;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.trang-tm-kim-main .logo {
+  display: flex;
+  width: 176.05px;
+  height: 44px;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.trang-tm-kim-main .img {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+
+.trang-tm-kim-main .heading {
+  position: relative;
+  width: 124.05px;
+  height: 36px;
+}
+
+.trang-tm-kim-main .text-wrapper {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  background: linear-gradient(
+    117deg,
+    rgba(119, 150, 235, 1) 0%,
+    rgba(28, 78, 216, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.trang-tm-kim-main .navigation {
+  display: flex;
+  width: 612px;
+  height: 24px;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+}
+
+.trang-tm-kim-main .link {
+  position: relative;
+  width: 69.06px;
+  height: 24px;
+}
+
+.trang-tm-kim-main .div {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  font-family: var(--desktop-desktop-bodytext-font-family);
+  font-weight: var(--desktop-desktop-bodytext-font-weight);
+  color: var(--neutralffffff);
+  font-size: var(--desktop-desktop-bodytext-font-size);
+  letter-spacing: var(--desktop-desktop-bodytext-letter-spacing);
+  line-height: var(--desktop-desktop-bodytext-line-height);
+  white-space: nowrap;
+  font-style: var(--desktop-desktop-bodytext-font-style);
+}
+
+.trang-tm-kim-main .div-wrapper {
+  width: 52.3px;
+  position: relative;
+  height: 24px;
+}
+
+.trang-tm-kim-main .text-wrapper-2 {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  opacity: 0.7;
+  font-family: var(--desktop-desktop-bodytext-font-family);
+  font-weight: var(--desktop-desktop-bodytext-font-weight);
+  color: var(--neutralffffff);
+  font-size: var(--desktop-desktop-bodytext-font-size);
+  letter-spacing: var(--desktop-desktop-bodytext-letter-spacing);
+  line-height: var(--desktop-desktop-bodytext-line-height);
+  white-space: nowrap;
+  font-style: var(--desktop-desktop-bodytext-font-style);
+}
+
+.trang-tm-kim-main .link-2 {
+  width: 58.84px;
+  position: relative;
+  height: 24px;
+}
+
+.trang-tm-kim-main .link-3 {
+  width: 55.46px;
+  position: relative;
+  height: 24px;
+}
+
+.trang-tm-kim-main .frame-2 {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 27px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.trang-tm-kim-main .group {
+  width: 59px;
+  height: 44px;
+  position: relative;
+}
+
+.trang-tm-kim-main .icon {
+  position: absolute;
+  top: 0;
+  left: 19px;
+  width: 20px;
+  height: 20px;
+  aspect-ratio: 1;
+}
+
+.trang-tm-kim-main .vector {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -8.33%;
+  left: -8.33%;
+}
+
+.trang-tm-kim-main .vector-2 {
+  position: absolute;
+  width: 34.58%;
+  height: 34.58%;
+  top: 65.42%;
+  left: 65.42%;
+}
+
+.trang-tm-kim-main .text-wrapper-3 {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20.4px;
+  white-space: nowrap;
+}
+
+.trang-tm-kim-main .group-2 {
+  width: 74px;
+  height: 52px;
+  position: relative;
+}
+
+.trang-tm-kim-main .button {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border-radius: 26843500px;
+}
+
+.trang-tm-kim-main .vector-3 {
+  height: 20px;
+  flex: 1;
+  aspect-ratio: 1;
+}
+
+.trang-tm-kim-main .text-wrapper-4 {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20.4px;
+  white-space: nowrap;
+}
+
+.trang-tm-kim-main .profile-wrapper {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 26843500px;
+}
+
+.trang-tm-kim-main .profile {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 7px;
+  position: relative;
+  left: 4px;
+  border-radius: 26843500px;
+  aspect-ratio: 1;
+  background: linear-gradient(
+    117deg,
+    rgba(119, 150, 235, 1) 0%,
+    rgba(28, 78, 216, 1) 100%
+  );
+}
+
+.trang-tm-kim-main .icon-2 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+.trang-tm-kim-main .vector-4 {
+  position: absolute;
+  width: 83.33%;
+  height: 41.67%;
+  top: 58.33%;
+  left: 16.67%;
+}
+
+.trang-tm-kim-main .vector-5 {
+  position: absolute;
+  /* Giữ nguyên kích thước nếu bạn thấy đẹp */
+  width: 20px; 
+  height: 20px;
+  
+  /* BẮT ĐẦU CĂN GIỮA */
+  top: 50%;   /* Đẩy góc trên của icon xuống giữa */
+  left: 50%;  /* Đẩy mép trái của icon sang giữa */
+  
+  /* Lệnh này cực kỳ quan trọng: dịch chuyển ngược lại 
+     50% kích thước của chính icon để tâm icon nằm vào giữa */
+  transform: translate(-50%, -50%);
+}
+
+.trang-tm-kim-main .mua-gi {
+  display: inline-flex;
+  height: 44px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 7px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 26843500px;
+  background: linear-gradient(
+    117deg,
+    rgba(119, 150, 235, 1) 0%,
+    rgba(28, 78, 216, 1) 100%
+  );
+}
+
+.trang-tm-kim-main .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--desktop-desktop-h3-card-title-font-family);
+  font-weight: var(--desktop-desktop-h3-card-title-font-weight);
+  color: var(--neutralffffff);
+  font-size: var(--desktop-desktop-h3-card-title-font-size);
+  letter-spacing: var(--desktop-desktop-h3-card-title-letter-spacing);
+  line-height: var(--desktop-desktop-h3-card-title-line-height);
+  white-space: nowrap;
+  font-style: var(--desktop-desktop-h3-card-title-font-style);
+}
+
+.trang-tm-kim-main .thanh-tm-kim {
+  display: flex;
+  max-width: 900px;
+  width: 900px;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 31px 41px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #2c2b2b;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.trang-tm-kim-main .search {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  aspect-ratio: 1;
+}
+
+.trang-tm-kim-main .p {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1px;
+  opacity: 0.5;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 31.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 47px;
+  white-space: nowrap;
+}
+
+.trang-tm-kim-main .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 1244.91px;
+  align-items: flex-start;
+  gap: 50px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.trang-tm-kim-main .phim {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.trang-tm-kim-main .text-wrapper-6 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--desktop-desktop-h1-page-title-font-family);
+  font-weight: var(--desktop-desktop-h1-page-title-font-weight);
+  color: var(--neutralffffff);
+  font-size: var(--desktop-desktop-h1-page-title-font-size);
+  letter-spacing: var(--desktop-desktop-h1-page-title-letter-spacing);
+  line-height: var(--desktop-desktop-h1-page-title-line-height);
+  font-style: var(--desktop-desktop-h1-page-title-font-style);
+}
+
+.trang-tm-kim-main .hnh-nh {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 11px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.trang-tm-kim-main .image {
+  position: relative;
+  width: 226.73px;
+  height: 339.04px;
+  background-image: url(../img/image_TK.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.trang-tm-kim-main .image-2 {
+  background-image: url(../img/image-1_TK.png);
+  position: relative;
+  width: 226.73px;
+  height: 339.04px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.trang-tm-kim-main .image-3 {
+  background-image: url(../img/image-2_TK.png);
+  position: relative;
+  width: 226.73px;
+  height: 339.04px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.trang-tm-kim-main .image-4 {
+  background-image: url(../img/image-3_TK.png);
+  position: relative;
+  width: 226.73px;
+  height: 339.04px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.trang-tm-kim-main .image-5 {
+  background-image: url(../img/image-4_TK.png);
+  position: relative;
+  width: 226.73px;
+  height: 339.04px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.trang-tm-kim-main .text-wrapper-7 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 229.78px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: var(--neutralffffff);
+  font-size: 19.8px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+}
+
+.trang-tm-kim-main .la-la-la-n-i-t-n-c {
+  position: relative;
+  width: 229.78px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: var(--neutralffffff);
+  font-size: 19.8px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+}
+
+.trang-tm-kim-main .div-wrapper-2 {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.trang-tm-kim-main .footer {
+  display: flex;
+  width: 1440px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 57px;
+  padding: 12px 0px;
+  position: relative;
+  background-color: var(--neutral-050814);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #ffffff;
+}
+
+.trang-tm-kim-main .frame-4 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  align-items: center;
+  gap: 57px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.trang-tm-kim-main .frame-5 {
+  display: flex;
+  align-items: flex-start;
+  gap: 57px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.trang-tm-kim-main .frame-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.trang-tm-kim-main .text-wrapper-8 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  margin-top: -1px;
+  opacity: 0.6;
+  font-family: var(--desktop-desktop-bodytext-font-family);
+  font-weight: var(--desktop-desktop-bodytext-font-weight);
+  color: var(--neutralffffff);
+  font-size: var(--desktop-desktop-bodytext-font-size);
+  letter-spacing: var(--desktop-desktop-bodytext-letter-spacing);
+  line-height: var(--desktop-desktop-bodytext-line-height);
+  font-style: var(--desktop-desktop-bodytext-font-style);
+}
+
+.trang-tm-kim-main .text-wrapper-9 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  opacity: 0.6;
+  font-family: var(--desktop-desktop-bodytext-font-family);
+  font-weight: var(--desktop-desktop-bodytext-font-weight);
+  color: var(--neutralffffff);
+  font-size: var(--desktop-desktop-bodytext-font-size);
+  letter-spacing: var(--desktop-desktop-bodytext-letter-spacing);
+  line-height: var(--desktop-desktop-bodytext-line-height);
+  font-style: var(--desktop-desktop-bodytext-font-style);
+}
+
+.trang-tm-kim-main .frame-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.trang-tm-kim-main .trung-t-m-ph-n-h-i-b {
+  position: relative;
+  align-self: stretch;
+  opacity: 0.6;
+  font-family: var(--desktop-desktop-bodytext-font-family);
+  font-weight: var(--desktop-desktop-bodytext-font-weight);
+  color: var(--neutralffffff);
+  font-size: var(--desktop-desktop-bodytext-font-size);
+  letter-spacing: var(--desktop-desktop-bodytext-letter-spacing);
+  line-height: var(--desktop-desktop-bodytext-line-height);
+  font-style: var(--desktop-desktop-bodytext-font-style);
+}
+
+.trang-tm-kim-main .container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 49px 49px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.trang-tm-kim-main .container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.trang-tm-kim-main .text-wrapper-10 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-top: -1px;
+  opacity: 0.6;
+  font-family: var(--desktop-desktop-subtext-font-family);
+  font-weight: var(--desktop-desktop-subtext-font-weight);
+  color: var(--neutralffffff);
+  font-size: var(--desktop-desktop-subtext-font-size);
+  letter-spacing: var(--desktop-desktop-subtext-letter-spacing);
+  line-height: var(--desktop-desktop-subtext-line-height);
+  font-style: var(--desktop-desktop-subtext-font-style);
+}
+
+.trang-tm-kim-main .container-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.trang-tm-kim-main .container-5 {
+  position: relative;
+  flex: 1;
+  min-width: 400px;
+  flex-grow: 1;
+}
+
+.trang-tm-kim-main a {
+  color: inherit;
+}

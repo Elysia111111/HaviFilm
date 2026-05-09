@@ -1,0 +1,24 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:700|Montserrat:var(--desktop-desktop-bodytext-font-weight),var(--desktop-desktop-h1-page-title-font-weight),var(--desktop-desktop-subtext-font-weight),var(--desktop-desktop-caption-label-font-weight),600,var(--desktop-desktop-h2-section-title-font-weight),var(--desktop-desktop-navigationtext-font-weight),var(--desktop-desktop-hightlightnumber-font-weight),var(--desktop-desktop-h3-card-title-font-weight),400|Roboto:var(--fptplay-vn-roboto-semibold-font-weight),400,var(--www-iq-com-semantic-link-font-weight),var(--fptplay-vn-semantic-button-font-weight),var(--fptplay-vn-roboto-medium-font-weight),var(--fptplay-vn-roboto-regular-font-weight)"); /* @FONTWARNING[{"type": "restricted", "family": "Arial", "weight": "var(--fptplay-vn-arial-regular-font-weight)", "style": "normal", "allowsCrossOrigin": false}] */
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: local("Arial");
+}
